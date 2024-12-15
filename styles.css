@@ -68,12 +68,14 @@ footer {
 }
 
 .footer-icons img:hover {
+    color: white;
     transform: scale (1.2);
 }
 
 #about {
     padding: 40px;
     background-color: #f9f9f9;
+    align-items: center;
 }
 
 .about-container {
@@ -98,6 +100,7 @@ footer {
     margin: 10px 0;
     line-height: 1.6;
     color: #333;
+    justify-content: center;
 }
 
 #education {
@@ -359,6 +362,9 @@ footer {
   
   .download-button:hover {
     background-color: #0288d1;
+  }
+  h1, h2, h3 {
+    text-align: center;
   }
   
   
