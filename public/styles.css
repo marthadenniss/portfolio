@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding: 20px;
 }
 
 header {
@@ -256,6 +257,81 @@ h1, h2, h3 {
   color: #333;
   margin-top: 10px;
 }
+#contact {
+  padding: 50px 20px;
+  background-color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#contact h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-synopsis {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  font-size: 1.1em;
+  text-align: center;
+  color: #555;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+  border-color: #00bcd4;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 188, 212, 0.5);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  font-size: 1.1em;
+  color: white;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0288d1;
+}
+
 
 
 /* Responsive Design */
@@ -276,4 +352,20 @@ h1, h2, h3 {
   .nav-bar {
       flex-wrap: wrap;
   }
+}
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.download-button:hover {
+  background-color: #0288d1;
 }
